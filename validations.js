@@ -18,3 +18,4 @@ export const postCreateValidation = [
     body('tags', 'Incorrect tag format').optional().isString(),
     body('imageUrl', 'Incorrect image link').optional().isString(),
  ];
+ 
