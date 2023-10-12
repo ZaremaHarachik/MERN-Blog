@@ -124,7 +124,7 @@ export const update = async (req, res) => {
     } catch (err) {
         console.log(err);
         res.status(500).json({
-            message: 'Can not create a post',
+            message: 'Can not create a post.',
         });
     }
 };

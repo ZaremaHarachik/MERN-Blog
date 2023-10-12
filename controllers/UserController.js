@@ -89,7 +89,7 @@ export const login = async (req, res) => {
     } catch (err) {
         console.log(err);
     res.status(500).json({
-        message: 'Can not log in',
+        message: 'Can not login',
     });
     }
 };
